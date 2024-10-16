@@ -1,0 +1,84 @@
+# Node.js dependencies
+/node_modules
+/npm-debug.log
+/yarn-error.log
+
+# Expo
+.expo
+.expo-shared
+
+# iOS
+ios/*
+!ios/Podfile
+!ios/Podfile.lock
+!ios/*.xcodeproj
+!ios/*.xcworkspace
+ios/.DS_Store
+ios/build
+
+# macOS
+*.DS_Store
+
+# Android
+/android/*
+!android/gradle/wrapper/gradle-wrapper.properties
+!android/gradlew
+!android/gradlew.bat
+!android/settings.gradle
+!android/app/build.gradle
+/android/.gradle
+/android/app/build
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# React Native
+*.log
+*.lock
+/coverage
+/fastlane/report.xml
+/fastlane/screenshots/**/*.png
+
+# Generated files
+/ios/Pods
+/android/app/src/main/res/raw/sentry-debug-meta.properties
+/android/app/src/main/assets/sentry-debug-meta.properties
+
+# Xcode specific
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+
+# Android specific
+/app/build
+/.gradle
+/local.properties
+/captures
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+*.iml
+
+# Metro Bundler cache
+/metro-cache
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Expo build artifacts
+.expo/
+dist/
+.expo-shared/assets.json
+
+# Environment variables
+.env
+.env.*.local
